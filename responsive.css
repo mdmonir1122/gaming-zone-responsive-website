@@ -1,0 +1,93 @@
+@media screen and (max-width: 1100px) {
+  nav {
+    width: 90%;
+  }
+  .menu-items {
+    margin-left: 10px;
+  }
+
+  /* main menu section */
+  .main-menu-first-container {
+    height: 500px;
+  }
+
+  .goat-items {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .image-container {
+    width: 50%;
+  }
+  .first-section-iamge {
+    width: 100%;
+  }
+
+ /* ---------------Section-2 style--------------- */
+.we-are-container {
+  width: 50%;
+  margin-right: 1%;
+  text-align: right;
+  margin-top: 50px;
+}
+
+  
+}
+
+/* ------------------For small divices------------------*/
+@media screen and (max-width: 670px) {
+  nav {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-items {
+    margin-bottom: 15px;
+  }
+
+  /* main menu section */
+.main-menu-first-container {
+  flex-direction: column-reverse;
+  width: 100%;
+  height: auto;
+}
+.goat-container {
+  width: 100%;
+}
+.goat-items {
+  margin: auto 0;
+  margin-left: 15%;
+}
+
+.image-container{
+  width: 100%;
+}
+.first-section-iamge {
+  width: 100%;
+  height:100%;
+}
+/* ---------------Section-2 style--------------- */
+
+.main-menu-second-container {
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.we-are-container {
+  width: 100%;
+  margin-right: 0%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+
+}

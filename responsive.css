@@ -43,6 +43,64 @@
 
 }
 
+/* --------------------section-4------------------ */
+.play-instantly-container {
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0px auto;
+  margin-top: 600px;
+  align-items: center;
+}
+
+/* -------------section-5------------ */
+.play-game-container {
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0px auto;
+  align-items: center;
+  margin-left: 5%;
+}
+
+/* ---------------section-6-------------- */
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2,5fr);
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0b0223;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  width: 243px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.service:hover {
+  border: 1px solid #ff42a5;
+  color: #ff42a5;
+  transition: 0.5s;
+}
   
 }
 
@@ -103,11 +161,70 @@
 
 
 .card-container {
-  width: 100%;
+ 
   grid-template-columns: repeat(1,4fr);
   gap: 100px;
-  justify-content: space-between;
+  justify-content: center;
   margin: auto;
 
+}
+
+/* --------------------section-4------------------ */
+.play-instantly-container {
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 600px;
+  align-items: center;
+}
+
+/* -------------section-5------------ */
+.play-game-container {
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0px auto;
+  align-items: center;
+  margin-left: 5%;
+}
+
+/* ---------------section-6-------------- */
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2,5fr);
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0b0223;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  width: 243px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.service:hover {
+  border: 1px solid #ff42a5;
+  color: #ff42a5;
+  transition: 0.5s;
 }
 }
